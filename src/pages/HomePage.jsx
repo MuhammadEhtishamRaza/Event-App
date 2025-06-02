@@ -1,8 +1,13 @@
+import Header from "../components/header/Header"
+import HeroSection from "../components/heroSection/HeroSection"
 
-const homePage = () => {
+const HomePage = () => {
     return (
-        <div>homePage</div>
+        <div>
+            <Header />
+            <HeroSection />
+        </div>
     )
 }
 
-export default homePage
+export default HomePage

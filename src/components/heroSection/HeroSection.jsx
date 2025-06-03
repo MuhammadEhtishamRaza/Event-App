@@ -1,35 +1,35 @@
 import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import CarouselImage from './CarouselImage';
+import image2 from "../../assets/image2.png";
+import image3 from "../../assets/image3.png";
+import image6 from "../../assets/image6.png";
 
 const HeroSection = () => {
 
     return (
-        <div></div>
-        // <Carousel>
-        //     <Carousel.Item>
-        //         {/* <ExampleCarouselImage text="First slide" /> */}
-        //         <Carousel.Caption>
-        //             <h3>First slide label</h3>
-        //             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        //         </Carousel.Caption>
-        //     </Carousel.Item>
-        //     <Carousel.Item>
-        //         <ExampleCarouselImage text="Second slide" />
-        //         <Carousel.Caption>
-        //             <h3>Second slide label</h3>
-        //             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        //         </Carousel.Caption>
-        //     </Carousel.Item>
-        //     <Carousel.Item>
-        //         <ExampleCarouselImage text="Third slide" />
-        //         <Carousel.Caption>
-        //             <h3>Third slide label</h3>
-        //             <p>
-        //                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        //             </p>
-        //         </Carousel.Caption>
-        //     </Carousel.Item>
-        // </Carousel>
+        <Carousel fade controls={false}>
+            <Carousel.Item interval={1000}>
+                <CarouselImage img={image3} />
+                <Carousel.Caption>
+                    <h2>Discover Exciting Events</h2>
+                    <p>Find the best concerts, workshops, and meetups near you. Never miss out on what's happening in your city!</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+                <CarouselImage img={image2} />
+                <Carousel.Caption>
+                    <h2>Plan with Ease</h2>
+                    <p>From ticket booking to reminders, we've got you covered. Manage your events seamlessly in one place.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={1000}>
+                <CarouselImage img={image6} />
+                <Carousel.Caption>
+                    <h2>Stay Updated</h2>
+                    <p>Get real-time notifications for trending events and personalized recommendations based on your interests</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
     )
 }
 

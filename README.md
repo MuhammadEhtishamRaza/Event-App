@@ -1,12 +1,29 @@
-# React + Vite
+# Event App made in React JS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
 
-Currently, two official plugins are available:
+1- React JS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2- React-Bootstrap
 
-## Expanding the ESLint configuration
+3- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4- Framer Motion
+
+5- React Router DOM
+
+## Description
+
+This is a frontend-focused web project designed to present a curated selection of global events in an engaging and visually appealing format. The interface showcases event cards that highlight key happenings from around the world. While the current implementation uses dummy JSON data for demonstration purposes, the architecture is designed to easily integrate with real-time APIs in the future.
+
+To enhance the user experience, smooth animations and transitions have been added across event cards, providing an interactive and modern feel. The layout is responsive and optimized for various screen sizes, ensuring accessibility across devices.
+
+## Key Features:
+
+- Dynamic event cards with subtle animations
+
+- Responsive design for seamless viewing on mobile and desktop
+
+- Clean and professional UI layout
+
+- Easily extendable to real-world data sources

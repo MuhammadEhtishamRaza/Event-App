@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 export const events = [
   {
     title: "Tech Summit 2024",

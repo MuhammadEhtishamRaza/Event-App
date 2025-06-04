@@ -124,7 +124,8 @@ export const events = [
     location: "Venice, Italy",
     date: "May 11-November 24, 2024",
     image: "Modern Art Installation",
-    imageUrl: "src/assets/art-biennale-venice.png",
+    imageUrl:
+      "https://plus.unsplash.com/premium_photo-1706548911781-dd3ad17a8fa6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEFydCUyMEJpZW5uYWxlfGVufDB8fDB8fHww",
   },
   {
     title: "Film Festival Cannes",

@@ -1,56 +1,56 @@
-// import { useEffect, useState } from "react";
+// import { useState } from "react";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { events } from "../../../data.js";
+import { Button } from 'react-bootstrap';
+import "./Card.css";
+
+// Function to shuffle an array (Fisher-Yates algorithm)
+const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+};
 
 const CardBox = () => {
-    // const [eventData, setEventData] = useState(null);
+    // Shuffle events and take first 6
+    const randomEvents = shuffleArray(events).slice(0, 6);
 
-    // useEffect(() => {
-    //     const username = 'eventapp4';
-    //     const password = 'pzqwdc3czt84';
-    //     const credentials = btoa(`${username}:${password}`);
-
-    //     fetch('https://api.eventfinda.co.nz/v2/events.json', {
-    //         headers: {
-    //             'Authorization': `Basic ${credentials}`,
-    //         },
-    //     })
-    //         .then(response => {
-    //             response.json();
-    //             setEventData(response.json())
-    //         })
-    //         .then(data => {
-    //             console.log(data); // Handle the event data here
-    //         })
-    //         .catch(error => {
-    //             console.error('Error fetching data:', error);
-    //         });
-    // }, []);
-
-    // console.log(eventData);
+    // Log randomEvents for debugging (optional)
+    console.log(randomEvents);
 
     return (
         <div className="m-5">
+            <h2 className='text-center mb-3'>Events</h2>
             <Row xs={1} sm={2} md={3} className="g-4">
-                {Array.from({ length: 6 }).map((_, idx) => (
-                    <Col key={idx}>
+                {randomEvents.map((event, index) => (
+                    <Col key={index}>
                         <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
+                            {/* Use event.image with fallback for placeholders */}
+                            <Card.Img
+                                variant="top"
+                                src={event.imageUrl} // Fallback image
+                                alt={event.title}
+                                height={250}
+                                className='image-card'
+                            />
                             <Card.Body>
-                                <Card.Title>Title</Card.Title>
-                                <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
-                                </Card.Text>
+                                <Card.Title className='card-title-text'>{event.title}</Card.Title>
+                                <Card.Text>{event.description}</Card.Text>
+                                <Card.Text><strong>Location:</strong> {event.location}</Card.Text>
+                                <Card.Text><strong>Date:</strong> {event.date}</Card.Text>
+                                <Button type='submit' color='primary'>Register</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                 ))}
             </Row>
         </div>
-    )
-}
+    );
+};
 
-export default CardBox
+export default CardBox;

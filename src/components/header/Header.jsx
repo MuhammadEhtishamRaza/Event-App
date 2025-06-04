@@ -14,8 +14,8 @@ const Header = () => {
           </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="/" className='p-3 custom-nav-link'>Home</Nav.Link>
-            <Nav.Link href="#features" className='p-3 custom-nav-link'>Events</Nav.Link>
-            <Nav.Link href="#pricing" className='p-3 custom-nav-link'>Contact</Nav.Link>
+            <Nav.Link href="#events" className='p-3 custom-nav-link'>Events</Nav.Link>
+            <Nav.Link href="#contact" className='p-3 custom-nav-link'>Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

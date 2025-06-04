@@ -6,7 +6,8 @@ export const events = [
     location: "San Francisco, USA",
     date: "October 15-17, 2024",
     image: "Tech Summit Stage",
-    imageUrl: "src/assets/techsummit.png",
+    imageUrl:
+      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHRlY2glMjBzdW1taXR8ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "World Music Festival",
@@ -15,7 +16,8 @@ export const events = [
     location: "Berlin, Germany",
     date: "July 5-7, 2024",
     image: "Crowd at Music Festival",
-    imageUrl: "src/assets/festival.jpg",
+    imageUrl:
+      "https://images.unsplash.com/photo-1619229725920-ac8b63b0631a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bXVzaWMlMjBmZXN0aXZhbHxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     title: "Sustainable Future Expo",
@@ -24,7 +26,8 @@ export const events = [
     location: "Amsterdam, Netherlands",
     date: "September 10-12, 2024",
     image: "Solar Panels & Eco Tech",
-    imageUrl: "src/assets/sustainable-future-expo.png",
+    imageUrl:
+      "https://plus.unsplash.com/premium_photo-1745056197425-7d097b74e933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U3VzdGFpbmFibGUlMjBGdXR1cmUlMjBFeHBvfGVufDB8fDB8fHww",
   },
   {
     title: "Startup Pitch Competition",
@@ -33,7 +36,8 @@ export const events = [
     location: "Singapore",
     date: "November 8, 2024",
     image: "Entrepreneur Presenting on Stage",
-    imageUrl: "src/assets/startup-pitch-competition.png",
+    imageUrl:
+      "https://images.unsplash.com/photo-1733826544831-ad71d05c8423?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFN0YXJ0dXAlMjBQaXRjaCUyMENvbXBldGl0aW9ufGVufDB8fDB8fHww",
   },
   {
     title: "International Food Fair",
@@ -41,7 +45,8 @@ export const events = [
     location: "Tokyo, Japan",
     date: "August 23-25, 2024",
     image: "Colorful Food Displays",
-    imageUrl: "src/assets/international-food-fair.png",
+    imageUrl:
+      "https://images.unsplash.com/photo-1697124949788-857cb46e94dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGludGVybmF0aW9uYWwlMjBmb29kJTIwZmFpcnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     title: "AI & Robotics Conference",
@@ -50,7 +55,8 @@ export const events = [
     location: "Seoul, South Korea",
     date: "October 30, 2024",
     image: "Humanoid Robot Demonstration",
-    imageUrl: "src/assets/ai-&-robotics-conference.png",
+    imageUrl:
+      "https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QUklMjAlMjYlMjBSb2JvdGljcyUyMENvbmZlcmVuY2V8ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "Global Health Symposium",
@@ -59,7 +65,8 @@ export const events = [
     location: "Geneva, Switzerland",
     date: "June 12-14, 2024",
     image: "Medical Professionals in Discussion",
-    imageUrl: "src/assets/global-health-symposium.png",
+    imageUrl:
+      "https://images.unsplash.com/photo-1725618878496-233974f2fd59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2xvYmFsJTIwSGVhbHRoJTIwU3ltcG9zaXVtfGVufDB8fDB8fHww",
   },
   {
     title: "Fashion Week Paris",
@@ -67,7 +74,8 @@ export const events = [
     location: "Paris, France",
     date: "September 23-29, 2024",
     image: "Runway Model in High Fashion",
-    imageUrl: "src/assets/fashion-week-paris.png",
+    imageUrl:
+      "https://images.unsplash.com/photo-1632749695805-2920c261d71d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fEZhc2hpb24lMjBXZWVrJTIwUGFyaXN8ZW58MHx8MHx8fDA%3D",
   },
   {
     title: "eSports Championship",
@@ -76,7 +84,8 @@ export const events = [
     location: "Los Angeles, USA",
     date: "December 5-8, 2024",
     image: "Gamers Competing on Stage",
-    imageUrl: "src/assets/esports-championship.png",
+    imageUrl:
+      "https://images.unsplash.com/photo-1587095951604-b9d924a3fda0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZXNwb3J0c3xlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     title: "Space Exploration Forum",

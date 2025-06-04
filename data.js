@@ -157,7 +157,8 @@ export const events = [
   },
   {
     title: "Automotive Innovation Show",
-    description: "Showcase of electric and self-driving cars.",
+    description:
+      "Showcase of electric and self-driving cars and innovative designs.",
     location: "Detroit, USA",
     date: "January 15-18, 2025",
     image: "Futuristic Car on Display",

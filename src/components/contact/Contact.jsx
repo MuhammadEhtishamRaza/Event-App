@@ -4,7 +4,7 @@ import { FormGroup } from 'react-bootstrap';
 
 const Contact = () => {
     return (
-        <div className='contact-form col-6 m-auto py-3'>
+        <div className='contact-form col-6 m-auto py-3' id='contact'>
             <h2>Contact Us.</h2>
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

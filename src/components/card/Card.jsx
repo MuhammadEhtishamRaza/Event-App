@@ -1,34 +1,34 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 const CardBox = () => {
-    const [eventData, setEventData] = useState(null);
+    // const [eventData, setEventData] = useState(null);
 
-    useEffect(() => {
-        const username = 'eventapp4';
-        const password = 'pzqwdc3czt84';
-        const credentials = btoa(`${username}:${password}`);
+    // useEffect(() => {
+    //     const username = 'eventapp4';
+    //     const password = 'pzqwdc3czt84';
+    //     const credentials = btoa(`${username}:${password}`);
 
-        fetch('https://api.eventfinda.co.nz/v2/events.json', {
-            headers: {
-                'Authorization': `Basic ${credentials}`,
-            },
-        })
-            .then(response => {
-                response.json();
-                setEventData(response.json())
-            })
-            .then(data => {
-                console.log(data); // Handle the event data here
-            })
-            .catch(error => {
-                console.error('Error fetching data:', error);
-            });
-    }, []);
+    //     fetch('https://api.eventfinda.co.nz/v2/events.json', {
+    //         headers: {
+    //             'Authorization': `Basic ${credentials}`,
+    //         },
+    //     })
+    //         .then(response => {
+    //             response.json();
+    //             setEventData(response.json())
+    //         })
+    //         .then(data => {
+    //             console.log(data); // Handle the event data here
+    //         })
+    //         .catch(error => {
+    //             console.error('Error fetching data:', error);
+    //         });
+    // }, []);
 
-    console.log(eventData);
+    // console.log(eventData);
 
     return (
         <div className="m-5">
